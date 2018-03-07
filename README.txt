@@ -1,6 +1,6 @@
 This is a sample project students can use during Matthew's Git class.
 
-Added - Leela, Leela2 
+Added - Leela, Leela2 , Leela3
 
 Here is an addition by me
 
