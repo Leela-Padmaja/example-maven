@@ -249,13 +249,13 @@ else
 
 	# Get JFrog CLI
 	curl -fL https://getcli.jfrog.io | sh
-
+echo "Download of Jfrog CLI Completed"
 	# configure artifactory
 	./jfrog rt config jf1  --url $ARTIFACTORY_URL --user $ARTIFACTORY_USER --apikey $ARTIFACTORY_APIKEY --interactive=false
-
+echo "Configuration Completed"
         # Please modify to match the artifacts to be uploaded for your project
         ./jfrog rt u "*/*.jar" $ARTIFACTORY_REPO --build-name=$CI_BUILD_NAME --build-number=$CI_BUILD_NUM --flat=false --server-id=jf1 
-
+echo "upload Completed"
 	# read env vars
 	./jfrog rt bce $CI_BUILD_NAME $CI_BUILD_NUM
 
