@@ -45,6 +45,11 @@
 
 waitForAnalysisToComplete() {
 
+echo $ARTIFACTORY_REPO
+echo $ARTIFACTORY_URL
+echo $ARTIFACTORY_APIKEY
+echo $ARTIFACTORY_USER
+
 	while [ "$taskstatus" == "PENDING" -o "$taskstatus" == "IN_PROGRESS" ];
 	do 
 		echo Getting task status ...
