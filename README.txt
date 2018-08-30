@@ -1,7 +1,7 @@
 This is a sample project students can use during Matthew's Git class.
 
 Added - 
-Here is an addition by me,me2,me3,me4,me5,me6,me7,me8,me9,me10,me11,me12,me13
+Here is an addition by me,me2,me3,me4,me5,me6,me7,me8,me9,me10,me11,me12,me13 .
 
 We can have a bit of fun with this repo, knowing that we can always reset it to a known good state.  We can apply labels, and branch, then add new code and merge it in to the master branch.
 
