@@ -1,5 +1,7 @@
 package com.ambientideas;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * Hello again
  * Hello world!
@@ -11,6 +13,12 @@ public class App
     {
     	//Comment
         System.out.println( "Hello World!" );
+        String s = "test";
+
+        s = StringUtils.capitalize(s);
+
+        System.out.println(s);
+
     }
 }
 
